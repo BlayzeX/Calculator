@@ -1,0 +1,57 @@
+body {
+    background: url('https://image2url.com/r2/default/images/1773265502283-d7f8e5d5-3eec-470c-86d6-bb4a0198da44.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+button {
+    width: 100px;
+    height: 100px;
+    font-size:  2em;
+    border-radius: 50px;
+    border: none;
+    margin-top: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.calculator {
+    width: 420px;
+    min-height: 600px;
+    max-height: 700px;
+    margin: 100px auto;
+    background-color: rgb(42, 42, 42);
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease;
+}
+.calculator:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.7);
+}
+.display {
+    font-weight: bold;
+    width: 90%;
+    color: black;
+    height: 80px;
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 40px;
+    padding: 10px;
+    margin:  20px auto 45px auto;
+    cursor: grab;
+}
+.signals {
+    background-color: rgb(225, 154, 22);
+    color: white;
+    transition: all 0.5s ease;
+}
+.signals:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
